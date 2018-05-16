@@ -40,5 +40,10 @@ while i  < number_of_questions
   i += 1
 end
 
-puts ("Anser to the ipad password is: ___ ___ ___ ___ ")
-puts ("                                A   B   C   D")
+puts ("______ + ______ = E")
+puts ("   A        B")
+puts ("______ + ______ = F")
+puts ("   C        D")
+
+puts ("Anser to the ipad password is: _____ _____ ")
+puts ("                                  E    F")
