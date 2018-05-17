@@ -65,5 +65,4 @@ new_file.close
 
 # Links to stackoverflow
 # https://stackoverflow.com/questions/1608593/printing-a-file-to-a-printer-in-ruby
-puts (print_file)
 system("lpr", print_file) or raise "lpr failed"
