@@ -30,7 +30,7 @@ max = 9
 
 print_file = "exercise/#{name}_#{date}.txt"
 
-new_file = File.new("exercise/#{name}_#{date}.txt",'w')
+new_file = File.new(print_file,'w')
 
 new_file.puts("Name: __________________\n")
 new_file.puts()
