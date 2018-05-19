@@ -25,7 +25,7 @@ def num_to_string(num)
 end
 
 number_of_questions = 4
-min = 0
+min = 1
 max = 9
 
 print_file = "exercise/#{name}_#{date}.txt"
@@ -52,10 +52,11 @@ while i  < number_of_questions
   i += 1
 end
 
-new_file.puts ("______ + ______ = E")
-new_file.puts ("   A        B")
-new_file.puts ("______ + ______ = F")
-new_file.puts ("   C        D")
+new_file.puts ("______ + ______ = _____")
+new_file.puts ("   A        B       E")
+new_file.puts ("")
+new_file.puts ("______ + ______ = _____")
+new_file.puts ("   C        D       F")
 new_file.puts ()
 new_file.puts ()
 new_file.puts ("Anser to the ipad password is: _____ _____ ")
